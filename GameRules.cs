@@ -1,11 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RollTheDiceLearn
 {
     internal class GameRules
     {
+        /// <summary>
+        /// Method with gamerules. Outputs if anyone wins.
+        /// </summary>
+        /// <returns>true if the game continues</returns>
         public static bool GameMaster(int dice_1_1,
             int dice_1_2,
             int dice_2_1,
